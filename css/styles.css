@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+
+.bordersss {
+  border: solid #999999;
+  color: #999999;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.jumbotron {
+  background-color: rgba(65, 0, 147, 0.8);
+}
+
+
+
+label {
+  font-family: 'Orbitron', sans-serif;
+}
+
+#output {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
+
+.input-panel {
+  width: 60%;
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #888888;
+}
+
+.number-panel {
+  margin-left: auto;
+  margin-right: auto;
+}
