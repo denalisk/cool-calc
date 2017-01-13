@@ -29,7 +29,19 @@ $(document).ready(function() {
 
   });
   $(".equals-button").click(function() {
-    alert(existingText);
+    console.log("you clicked it");
+    var input1 = $(".display").text();
+    var output1 = input1.replace(/ /g,'');
+    var solution = eval(output1);
+    console.log(solution);
+    $(".answer-display").text(solution);
+    $(".display").text("");
+
+  });
+  $(".clear-button").click(function() {
+    $(".display").text("");
+    $(".answer-display").text("");
+
   });
 
 
